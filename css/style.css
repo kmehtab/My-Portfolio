@@ -1,0 +1,38 @@
+body{
+    background-color: #E9ECEF;
+}
+#nav{
+    background-color: #002b35;
+    padding-left: 10%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-family: "Roboto mono",monospace;
+    font-size: 1.2rem;
+}
+
+a{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+a:hover{
+    color: #fff;
+}
+
+h1{
+    letter-spacing: 3px;
+}
+
+.jumbotron{
+    margin-bottom: 0;
+    padding-bottom: 55px;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+.p{
+    margin-top: 3em;
+}
+
