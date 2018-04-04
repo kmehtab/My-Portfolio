@@ -3,19 +3,38 @@ body{
 }
 #nav{
     background-color: #002b35;
-    padding-left: 10%;
+    padding-left: 8%;
     padding-top: 3px;
     padding-bottom: 3px;
     font-family: "Roboto mono",monospace;
     font-size: 1.2rem;
 }
 
+#nav-link{
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+#header-1{
+    letter-spacing: 8px;
+}
+
+#header-2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 3.3px;
+}
+
 a{
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 a:hover{
-    color: #fff;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.active{
+    color: rgba(255, 255, 255)
 }
 
 h1{
@@ -24,7 +43,7 @@ h1{
 
 .jumbotron{
     margin-bottom: 0;
-    padding-bottom: 55px;
+    padding-bottom: 15px;
 }
 
 .parallax-window {
