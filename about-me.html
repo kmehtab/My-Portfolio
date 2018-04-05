@@ -13,7 +13,7 @@
 
 <body>
     <!-- nav-bar start here -->
-    <nav class="navbar navbar-expand fixed-top" id="nav">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="nav">
         <div class="nav navbar-nav">
             <a class="navbar-brand brand active" href="#">
                 <span>
@@ -21,10 +21,23 @@
                         <span>kmehtab</span>
                         <span>/></span>
             </a>
-            <a class="nav-item nav-link" id="nav-link" href="index.html">Home</a>
-            <a class="nav-item nav-link" id="nav-link" href="my-project.html">Projects</a>
-            <a class="nav-item nav-link active" id="nav-link" href="about-me.html">About me</a>
         </div>
+        <button class="navbar-toggler nav-color" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-item nav-link" id="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item nav-link" id="nav-link" href="my-project.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item nav-link active" id="nav-link" href="about-me.html">About me</a>
+                </li>
+            </ul>
     </nav>
     <!-- jumbotron start here -->
     <div class="jumbotron jumbotron-fluid">
@@ -33,13 +46,17 @@
             <p class="lead" id="header-2">My name is Khan Mehtab (kmehtab)</p>
         </div>
     </div>
-     <!-- parallex effect -->
-     <div class="parallax-window" data-parallax="scroll" data-image-src="\img\img-3.jpg"></div>
-     <div class="container">
-         <p class="p">
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi fugiat sequi, a sunt suscipit libero culpa distinctio quidem consequuntur perferendis nobis facilis. Ad voluptatibus neque ratione, saepe non dignissimos cum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, reiciendis. Sed laboriosam, temporibus provident dolorem magnam voluptates nihil, aliquam itaque asperiores autem cumque voluptate porro animi esse voluptatibus assumenda aliquid.
-         </p>
-     </div>
+    <!-- parallex effect -->
+    <div class="parallax-window" data-parallax="scroll" data-image-src="\img\img-3.jpg"></div>
+    <div class="container">
+        <p class="p">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi fugiat sequi, a sunt suscipit libero culpa distinctio quidem
+            consequuntur perferendis nobis facilis. Ad voluptatibus neque ratione, saepe non dignissimos cum! Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Deserunt, reiciendis. Sed laboriosam, temporibus provident dolorem
+            magnam voluptates nihil, aliquam itaque asperiores autem cumque voluptate porro animi esse voluptatibus assumenda
+            aliquid.
+        </p>
+    </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="js\parallax.min.js"></script>

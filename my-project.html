@@ -13,17 +13,31 @@
 
 <body>
     <!-- nav-bar start here -->
-    <nav class="navbar navbar-expand fixed-top" id="nav">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="nav">
         <div class="nav navbar-nav">
             <a class="navbar-brand brand active" href="#">
-                <span><</span>
-                <span>kmehtab</span>
-                <span>/></span>
+                <span>
+                    <</span>
+                        <span>kmehtab</span>
+                        <span>/></span>
             </a>
-            <a class="nav-item nav-link" id="nav-link" href="index.html">Home</a>
-            <a class="nav-item nav-link active" id="nav-link" href="my-project.html">Projects</a>
-            <a class="nav-item nav-link" id="nav-link" href="about-me.html">About me</a>
         </div>
+        <button class="navbar-toggler nav-color" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-item nav-link" id="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item nav-link active" id="nav-link" href="my-project.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item nav-link" id="nav-link" href="about-me.html">About me</a>
+                </li>
+            </ul>
     </nav>
     <!-- jumbotron start here -->
     <div class="jumbotron jumbotron-fluid">
@@ -32,6 +46,21 @@
             <p class="lead" id="header-2">My name is Khan Mehtab (kmehtab)</p>
         </div>
     </div>
+    <!-- parallex effect -->
+    <div class="parallax-window" data-parallax="scroll" data-image-src="\img\img-02.png"></div>
+    <!-- card starts here -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 text-center">hello</div>
+            <div class="col-lg-4 col-md-6 col-sm-12">hello</div>
+            <div class="col-lg-4 col-md-6 col-sm-12">hello</div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">world</div>
+            <div class="col-lg-6 col-md-6 col-sm-12">world</div>
+        </div>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="js\parallax.min.js"></script>
